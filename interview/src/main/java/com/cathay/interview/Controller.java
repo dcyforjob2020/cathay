@@ -6,7 +6,6 @@ import java.util.Calendar;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,7 +14,6 @@ import com.cathay.interview.bean.Error;
 import com.cathay.interview.bean.UsdToTwdHistoricalDataParameterBean;
 import com.cathay.interview.bean.ViewBean;
 
-@SpringBootApplication
 @RestController
 public class Controller {
 	@Autowired
